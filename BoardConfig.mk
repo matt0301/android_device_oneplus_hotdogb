@@ -13,7 +13,7 @@ DEVICE_PATH := device/oneplus/hotdogb
 TARGET_OTA_ASSERT_DEVICE := OnePlus7T
 
 # Display
-TARGET_SCREEN_DENSITY := 560
+TARGET_SCREEN_DENSITY := 420
 
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/sm8150-perf_defconfig
