@@ -1,15 +1,16 @@
 #
 # Copyright (C) 2018-2019 The LineageOS Project
+# Copyright (C) 2020 The StatiXOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 -include device/oneplus/sm8150-common/BoardConfigCommon.mk
 
 BOARD_VENDOR := oneplus
-DEVICE_PATH := device/oneplus/hotdog
+DEVICE_PATH := device/oneplus/hotdogb
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := OnePlus7TPro
+TARGET_OTA_ASSERT_DEVICE := OnePlus7T
 
 # Display
 TARGET_SCREEN_DENSITY := 560
