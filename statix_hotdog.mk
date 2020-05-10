@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2019 The LineageOS Project
+# Copyright (C) 2020 The StatiXOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -11,11 +12,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from hotdog device
 $(call inherit-product, device/oneplus/hotdog/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Statix stuff.
+$(call inherit-product, vendor/statix/config/common.mk)
+$(call inherit-product, vendor/statix/config/gsm.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_hotdog
+PRODUCT_NAME := statix_hotdog
 PRODUCT_DEVICE := hotdog
 PRODUCT_BRAND := OnePlus
 PRODUCT_MODEL := OnePlus 7T Pro
