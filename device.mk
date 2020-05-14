@@ -45,10 +45,6 @@ PRODUCT_COPY_FILES += \
 # Notch Overlays
 TARGET_HAS_NOTCH := true
 
-# Vibrator
-PRODUCT_PACKAGES += \
-    android.hardware.vibrator@1.2-service.oneplus_msmnile
-
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
