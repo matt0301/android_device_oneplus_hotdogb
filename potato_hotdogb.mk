@@ -13,11 +13,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/hotdogb/device.mk)
 
 # Inherit some common StatiX stuff.
-$(call inherit-product, vendor/statix/config/common.mk)
-$(call inherit-product, vendor/statix/config/gsm.mk)
+$(call inherit-product, vendor/potato/config/common_full_phone.mk)
+#$(call inherit-product, vendor/statix/config/gsm.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := statix_hotdogb
+PRODUCT_NAME := potato_hotdogb
 PRODUCT_DEVICE := hotdogb
 PRODUCT_BRAND := OnePlus
 PRODUCT_MODEL := OnePlus 7T

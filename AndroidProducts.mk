@@ -6,4 +6,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/statix_hotdogb.mk
+    $(LOCAL_DIR)/potato_hotdogb.mk
